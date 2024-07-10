@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Sunvir's Portfolio</h1>
+						<p>I'm a driven SDE with 2.5 years of industry experience and a Masters degree in Computer Engineering from University of Waterloo. 
+							<br>I'm highly passionate for what I do and am always looking to grow and increase my knowledge.
+						</p>
+						<ul class="actions">
+							<li><a href="#nav" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+				
+
+				<!-- Nav -->
+					<nav id="nav">
+						
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/sunvirsingh/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/sunvir72/" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="downloadables/SunvirSingh_Resume.pdf" target="_blank" download >Sunvir Singh</a></h2>
+									<p> Welcome to my professional portfolio! 
+										Explore my projects, skills, and experiences in software development, 
+										featuring my work in fintech and tech-enabled education. 
+										Connect with me to discuss potential opportunities and collaborations..</p>
+								</header>
+								<img src="images/mypic.jpg" alt="My Picture" style="width: 65%; height: auto;" />
+
+								<ul class="actions special">
+									<li><a href="downloadables/SunvirSingh_Resume.pdf" target="_blank" download class="button">Download Resume</a></li>
+									<li><a  onclick="smoothScroll('projects')" class="button">Projects</a></li>
+									<li><a  onclick="smoothScroll('footer')" class="button">Contact</a></li>
+									<script>
+										function smoothScroll(targetId) {
+											var targetElement = document.getElementById(targetId);
+											if (targetElement) {
+												var offsetTop = targetElement.getBoundingClientRect().top + window.pageYOffset;
+												window.scrollTo({ top: offsetTop, behavior: 'smooth' });
+											}
+										}
+									</script>
+								</ul>
+							</article>
+
+						<!-- Posts -->
+							<section id = "projects" class="posts">
+								<article>
+									<header>
+										<span class="date">2019</span>
+										<h2><a href="https://sunvir.pythonanywhere.com" target="_blank">Eduweb - Educational platform for students and teachers</a></h2>
+									</header>
+									<a href="https://sunvir.pythonanywhere.com" target="_blank" class="image fit"><img src="images/eduweb.png" alt="" /></a>
+									<ul style="text-align: left;">
+										<li>Developed a Django and Python based Web Application, enabling teachers to create courses, enroll students, and add content such as assignments.</li>
+										<li>Implemented features allowing teachers to create online questionnaires for student participation.</li>
+										<li>Created a student dashboard for viewing performance and tracking progress on assignments and questionnaires.</li>
+									  </ul>
+									  
+									<ul class="actions special">
+										<li><a href="https://sunvir.pythonanywhere.com" target="_blank" class="button">Go to Website</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">2020</span>
+										<h2><a href="https://easyml.pythonanywhere.com" target="_blank">EasyML - Machine Learning Model Training and Analysis Platform</a></h2>
+									</header>
+									<a href="https://easyml.pythonanywhere.com" target="_blank" class="image fit"><img src="images/easyml.png" alt="" /></a>
+									<ul style="text-align: left;">
+										<li>Developed a website enabling users to upload their own dataset to train Machine Learning models.</li>
+										<li>Implemented interactive charts and statistics for comparison of different Machine Learning algorithms.</li>
+										<li>Introduced ability to save a trained model for use on a testing/prediction dataset to test trained models and gather predictions.</li>
+									  </ul>
+									  
+									<ul class="actions special">
+										<li><a href="https://easyml.pythonanywhere.com" target="_blank" class="button">Go to Website</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">2024</span>
+										<h2><a href="https://github.com/connect-application" target="_blank">Connect - Social media Spring application</a></h2>
+									</header>
+									<a href="https://github.com/connect-application" target="_blank" class="image fit"><img src="images/connect.png" alt="" /></a>
+									<ul style="text-align: left;">
+											<li>Client-Server based social media application made with Java, Spring, Hibernate, PostgreSQL, and React.</li>
+											<li>Functionalities include a user being able to securely log in, create posts, follow other users, and chat with them.</li>
+											<li>Leveraged Jira to create tickets for each piece of development.</li>
+											<li>Utilized JUnit for testing and Jenkins for monitoring.</li>
+										  </ul>
+										  
+									  
+									<ul class="actions special">
+										<li><a href="https://github.com/connect-application" target="_blank" class="button">Go to Project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<span class="date">2024</span>
+										<h2><a href="https://github.com/sunvir72/TrafficCameraOpt" target="_blank">Traffic Intersection Camera Optimization</a></h2>
+									</header>
+									<a href="https://github.com/sunvir72/TrafficCameraOpt" target="_blank" class="image fit"><img src="images/trafficCam.png" alt="" /></a>
+									<ul style="text-align: left;">
+										<li>Solved the problem of installing the minimum number of cameras at intersections of streets using Python and C++.</li>
+										<li>Used Multithreading and Inter-Process Communication (IPC) to efficiently distribute work among different processes and facilitate communication.</li>
+										<li>Implemented an approximate algorithm for the Vertex Cover problem to determine the installation of security cameras at traffic intersections.</li>
+										<li>Computed the approximation ratio between the MiniSAT solver and the approximation algorithms, presenting a comparative study documenting the trade-offs in running time and accuracy.</li>
+									  </ul>
+										  
+									  
+									<ul class="actions special">
+										<li><a href="https://github.com/sunvir72/TrafficCameraOpt" target="_blank" class="button">Go to Project</a></li>
+									</ul>
+								</article>
+							</section>
+
+						<!-- Footer -->
+				
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<div class="fields">
+								<div class="field">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" />
+								</div>
+								<div class="field">
+									<label for="message">Message</label>
+									<textarea name="message" id="message" rows="3"></textarea>
+								</div>
+							</div><br>
+							<ul class="actions">
+								<li><a  onclick="sendEmail()" class="button">Send Message</a></li>
+							</ul>
+						</section>
+						
+						<script>
+							function sendEmail() {
+								var name = document.getElementById('name').value;
+								var message = document.getElementById('message').value;
+								
+								var subject = name + ' via Portfolio Website';
+								var body = message;
+								
+								var mailtoLink = 'mailto:s655sing@uwaterloo.ca' +
+												 '?subject=' + encodeURIComponent(subject) +
+												 '&body=' + encodeURIComponent(body);
+								
+								window.location.href = mailtoLink;
+							}
+						</script>
+						
+						
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>2902-308 King Street North<br />
+								Waterloo, ON, Canada, N2J0G4</p>
+							</section>
+							<section>
+								<h3>Phone</h3>
+								<p>(548) 577-0892</p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="mailto:s655sing@uwaterloo.ca">s655sing@uwaterloo.ca</a></p>
+							  </section>
+							  
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/sunvirsingh/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/sunvir72/" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
